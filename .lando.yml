@@ -1,0 +1,4 @@
+name: redirect-user-apache
+recipe: lamp
+config:
+  webroot: public
