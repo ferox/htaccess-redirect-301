@@ -1,0 +1,36 @@
+{
+  "site": {
+    "name": "Example Site",
+    "url": "https://www.example.com",
+    "description": "This is an example of an asset links JSON for associating metadata between different assets."
+  },
+  "assets": [
+    {
+      "type": "android_app",
+      "package_name": "com.example.app",
+      "sha256_cert_fingerprints": [
+        "AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90"
+      ]
+    },
+    {
+      "type": "web_app",
+      "name": "Example PWA",
+      "url": "https://app.example.com",
+      "icons": [
+        "https://app.example.com/icon-192.png",
+        "https://app.example.com/icon-512.png"
+      ]
+    },
+    {
+      "type": "cdn_asset",
+      "cdn_url": "https://cdn.example.com/library.js",
+      "version": "1.0.5",
+      "integrity": "sha384-abc123xyz"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-05-26T18:45:00Z",
+    "version": "1.0.0",
+    "author": "ChatGPT"
+  }
+}
